@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #e9edc9;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem; 
+    cursor: pointer;   
+}
+.title:hover {
+    color: #252422 ;
+    text-shadow: 0 0 10px #252422,
+    0 0 20px #252422,
+    0 0 20px #252422;
+}
+.subtitle{
+    font-size: 1.3rem;
+    text-align: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-size: 1.5rem;
+}
+a li{
+    color: #3a5a40;
+}
+a li:hover{
+    text-decoration:underline;
+}
+.seccion{
+    display: flex;
+    height: 50vh;
+    text-align: center;
+    padding: 10px;
+}
+.banner{
+    text-align: center;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer{
+    background-color: #a7c957;
+}
+.pie{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+}
+i{
+    color: #000;
+    margin: 10px;
+    padding-top: 10px;
+}
+.form{
+    margin-bottom: 10px ;
+}
+.button{
+    cursor: pointer;
+    height: 1.5rem;
+}
+.centrar{
+    font-size: 1.5rem;
+    padding: 25px;
+}
+.separator{
+    color: #3a5a40;
+    margin: 0px 35px;
+}
+.products{
+    width: 100%;
+    text-align: center;
+}
+.productos{
+    text-align: center;
+}
+.product-title{
+    text-align: center;
+}
+.product-descripcion{
+    text-align: center;
+}
+.product-img{
+    width: 50%;
+    cursor: pointer;
+}
+.sobre-nosotros{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.container{
+    display: flex;
+}
+.banner-gente{
+    width: 50%;
+    margin: 15px;
+}
+.banner-title{
+    display: flex;
+    align-items: end;
+    font-size: 1.8rem;
+    margin: 1.3rem ;
+}
+.banner-parrafo{
+    display: flex;
+    margin: 23px;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .fa-instagram{
+    font-size: 50px;
+}
+.fa-facebook{
+    font-size: 50px;
+}
+.fa-x{
+    font-size: 50px;
+} */

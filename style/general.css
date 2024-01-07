@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    font-family: Helvetica-Neue,Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif;;    
+}
+a{
+    color: var(--color-link);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--color-link-hover);
+    text-decoration: underline;
+}
